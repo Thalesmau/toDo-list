@@ -6,7 +6,7 @@ export function TaskForm() {
     <TaskContainer>
       <input type="text" placeholder="Adicione uma nova tarefa" />
 
-      <button>
+      <button type="submit">
         Criar
         <PlusCircle size={16} />
       </button>
